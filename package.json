@@ -1,16 +1,15 @@
 {
-  "name": "zksync-hardhat-template",
-  "description": "A template for zkSync smart contracts development with Hardhat",
+  "name": "abstract-paymasters",
+  "description": "A template for Abstract paymaster contracts",
   "private": true,
-  "author": "Matter Labs",
+  "author": "Jarrod Watts",
   "license": "MIT",
-  "repository": "https://github.com/matter-labs/zksync-hardhat-template.git",
+  "repository": "https://github.com/jarrodwatts/paymasters-abstract",
   "scripts": {
     "deploy": "hardhat deploy-zksync --script deploy.ts",
     "interact": "hardhat deploy-zksync --script interact.ts",
     "compile": "hardhat compile",
-    "clean": "hardhat clean",
-    "test": "hardhat test --network hardhat"
+    "clean": "hardhat clean"
   },
   "devDependencies": {
     "@matterlabs/hardhat-zksync": "^1.1.0",
